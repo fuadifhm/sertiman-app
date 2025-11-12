@@ -26,7 +26,7 @@ var options = {
     type: "category",
   },
   colors: (colors = dataColors ? dataColors.split(",") : colors),
-  yaxis: [{ title: { text: "Konstruksi" } }, { opposite: true, title: { text: "Non Konstruksi" } }],
+
   legend: { offsetY: 7 },
   grid: { borderColor: "#f1f3fa", padding: { bottom: 5 } },
 };

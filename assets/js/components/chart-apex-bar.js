@@ -140,15 +140,15 @@ chart.render();
 var summaryEl = document.getElementById("realisasiSummary");
 if (summaryEl) {
   summaryEl.innerHTML = `
-    <div class="d-flex justify-content-center gap-2 mt-2 flex-wrap text-center">
+    <div class="d-flex justify-content-center gap-2 flex-wrap text-center">
       <div class="text-warning">
         <i class="ti ti-target me-1"></i>
-        <strong class="text-warning">Rencana: Rp ${totalRencana.toLocaleString("id-ID")}</strong>
+        <strong class="text-warning">Rencana: <br>Rp ${totalRencana.toLocaleString("id-ID")}</strong>
         <span class="text-muted"> (100%)</span>
       </div>
       <div class="${colorRealClass}">
         <i class="ti ti-chart-line text-primary me-1"></i>
-        <strong class="text-primary">Realisasi: Rp ${totalRealisasi.toLocaleString("id-ID")}</strong>
+        <strong class="text-primary">Realisasi:<br> Rp ${totalRealisasi.toLocaleString("id-ID")}</strong>
         <span class="text-muted"> (${persenRealisasiTotal.toFixed(1)}%)</span>
       </div>
     </div>
