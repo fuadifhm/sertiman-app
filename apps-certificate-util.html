@@ -433,8 +433,8 @@
                         </optgroup>
                       </select>
                       |
-                      <!-- Tombol Tambah Data -->
-                      <a href="apps-certificat-util-create.html" class="btn btn-lg btn-soft-success shadow-sm"> <i class="ti ti-plus me-1"></i></a>
+                      <!-- Tombol Tambah Data 
+                      <a href="apps-certificat-util-create.html" class="btn btn-lg btn-soft-success shadow-sm"> <i class="ti ti-plus me-1"></i></a> -->
                     </div>
                   </div>
                 </div>
@@ -443,7 +443,7 @@
                 <div class="table-responsive-sm">
                   <table class="table table-hover table-sm align-middle text-nowrap mb-0">
                     <thead class="bg-light-subtle">
-                      <tr>
+                      <tr class="text-center">
                         <th class="ps-3 py-2" style="width: 40px">
                           <input type="checkbox" class="form-check-input" id="customCheck1" />
                         </th>
@@ -467,7 +467,7 @@
                       </tr>
                     </thead>
 
-                    <tbody>
+                    <tbody class="text-center">
                       <tr>
                         <td class="ps-3"><input type="checkbox" class="form-check-input" /></td>
                         <td><span class="text-muted">1</span></td>
@@ -490,23 +490,70 @@
                         <td>12 Des 2025</td>
 
                         <td>
-                          <select id="statusSelect" class="form-select form-select-sm border-0 bg-light">
+                          <select id="statusSelect" class="form-select form-select-sm border-0 bg-light" disabled>
                             <option value="digunakan" selected>Terpakai</option>
                             <option value="tersedia">Tersedia</option>
                           </select>
                         </td>
 
                         <td class="pe-3">
-                          <div class="hstack gap-1 justify-content-end">
+                          <div class="hstack gap-1 justify-content-center">
                             <a href="apps-certificat-util-view.html" class="btn btn-soft-primary btn-icon btn-sm rounded-circle" data-bs-toggle="tooltip" title="Lihat Detail">
                               <i class="ti ti-eye"></i>
                             </a>
+                            <!--
                             <a href="apps-certificat-util-update.html" class="btn btn-soft-success btn-icon btn-sm rounded-circle" data-bs-toggle="tooltip" title="Edit Data">
                               <i class="ti ti-edit fs-16"></i>
                             </a>
                             <a href="javascript:void(0);" class="btn btn-soft-danger btn-icon btn-sm rounded-circle deleteBtn" data-bs-toggle="tooltip" title="Hapus">
                               <i class="ti ti-trash"></i>
                             </a>
+                             -->
+                          </div>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td class="ps-3"><input type="checkbox" class="form-check-input" /></td>
+                        <td><span class="text-muted">1</span></td>
+                        <td>
+                          <div class="d-flex align-items-center gap-2">
+                            <h6 class="fs-14 mb-0">Asep Kecamatan</h6>
+                          </div>
+                        </td>
+                        <td>PM K1</td>
+                        <td>Building</td>
+                        <td>Konstruksi</td>
+                        <td>Sipil</td>
+                        <td>Bangunan Gedung Hijau</td>
+                        <td>9</td>
+                        <td class="text-truncate" style="max-width: 150px">Proyek Gedung A</td>
+
+                        <!-- data tambahan -->
+                        <td>Asep Kecamatan</td>
+                        <td>12 Okt 2025</td>
+                        <td>12 Des 2025</td>
+
+                        <td>
+                          <select id="statusSelect" class="form-select form-select-sm border-0 bg-light" disabled>
+                            <option value="digunakan">Terpakai</option>
+                            <option value="tersedia" selected>Tersedia</option>
+                          </select>
+                        </td>
+
+                        <td class="pe-3">
+                          <div class="hstack gap-1 justify-content-center">
+                            <a href="apps-certificat-util-view.html" class="btn btn-soft-primary btn-icon btn-sm rounded-circle" data-bs-toggle="tooltip" title="Lihat Detail">
+                              <i class="ti ti-eye"></i>
+                            </a>
+                            <!--
+                            <a href="apps-certificat-util-update.html" class="btn btn-soft-success btn-icon btn-sm rounded-circle" data-bs-toggle="tooltip" title="Edit Data">
+                              <i class="ti ti-edit fs-16"></i>
+                            </a>
+                            <a href="javascript:void(0);" class="btn btn-soft-danger btn-icon btn-sm rounded-circle deleteBtn" data-bs-toggle="tooltip" title="Hapus">
+                              <i class="ti ti-trash"></i>
+                            </a>
+                             -->
                           </div>
                         </td>
                       </tr>
