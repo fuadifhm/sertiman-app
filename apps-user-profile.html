@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" data-layout="">
   <head>
     <meta charset="utf-8" />
@@ -15,24 +15,49 @@
     <link href="assets/css/vendor.min.css" rel="stylesheet" type="text/css" />
 
     <!-- App css -->
-    <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" id="app-style" />
+    <link
+      href="assets/css/app.min.css"
+      rel="stylesheet"
+      type="text/css"
+      id="app-style"
+    />
 
     <!-- Icons css -->
     <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
 
     <!-- Quill css -->
-    <link href="assets/vendor/quill/quill.core.css" rel="stylesheet" type="text/css" />
-    <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet" type="text/css" />
-    <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet" type="text/css" />
+    <link
+      href="assets/vendor/quill/quill.core.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="assets/vendor/quill/quill.snow.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="assets/vendor/quill/quill.bubble.css"
+      rel="stylesheet"
+      type="text/css"
+    />
 
     <!-- Sweet Alert css-->
-    <link href="assets/vendor/sweetalert2/sweetalert2.min.css" rel="stylesheet" type="text/css" />
+    <link
+      href="assets/vendor/sweetalert2/sweetalert2.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
   </head>
 
   <body class="animation">
     <!-- overlay logo loader -->
     <div id="loading">
-      <img src="assets/images/logo-sm.png" alt="Loading..." class="logo-loader" />
+      <img
+        src="assets/images/logo-sm.png"
+        alt="Loading..."
+        class="logo-loader"
+      />
     </div>
 
     <!-- Container toast -->
@@ -45,13 +70,21 @@
         <!-- Brand Logo -->
         <a href="index.html" class="logo">
           <span class="logo-light">
-            <span class="logo-lg"><img src="assets/images/logo-dark.png" alt="logo" /></span>
-            <span class="logo-sm"><img src="assets/images/logo-sm.png" alt="small logo" /></span>
+            <span class="logo-lg"
+              ><img src="assets/images/logo-dark.png" alt="logo"
+            /></span>
+            <span class="logo-sm"
+              ><img src="assets/images/logo-sm.png" alt="small logo"
+            /></span>
           </span>
 
           <span class="logo-dark">
-            <span class="logo-lg"><img src="assets/images/logo.png" alt="dark logo" /></span>
-            <span class="logo-sm"><img src="assets/images/logo-sm.png" alt="small logo" /></span>
+            <span class="logo-lg"
+              ><img src="assets/images/logo.png" alt="dark logo"
+            /></span>
+            <span class="logo-sm"
+              ><img src="assets/images/logo-sm.png" alt="small logo"
+            /></span>
           </span>
         </a>
 
@@ -74,15 +107,32 @@
           <!-- User -->
           <div class="sidenav-user">
             <div class="dropdown-center text-center">
-              <a class="topbar-link dropdown-toggle text-reset drop-arrow-none px-2" data-bs-toggle="dropdown" type="button" aria-haspopup="false" aria-expanded="false">
-                <img src="assets/images/users/avatar-2.jpg" width="46" class="rounded-circle" alt="user-image" />
-                <span class="d-flex justify-content-center gap-1 sidenav-user-name my-2">
+              <a
+                class="topbar-link dropdown-toggle text-reset drop-arrow-none px-2"
+                data-bs-toggle="dropdown"
+                type="button"
+                aria-haspopup="false"
+                aria-expanded="false"
+              >
+                <img
+                  src="assets/images/users/avatar-2.jpg"
+                  width="46"
+                  class="rounded-circle"
+                  alt="user-image"
+                />
+                <span
+                  class="d-flex justify-content-center gap-1 sidenav-user-name my-2"
+                >
                   <span>
-                    <span class="mb-0 fw-semibold lh-base fs-15">Asep Sedunia</span>
+                    <span class="mb-0 fw-semibold lh-base fs-15"
+                      >Asep Sedunia</span
+                    >
                     <p class="my-0 fs-13 text-muted">Admin Head</p>
                   </span>
 
-                  <i class="ri-arrow-down-s-line d-block sidenav-user-arrow align-middle"></i>
+                  <i
+                    class="ri-arrow-down-s-line d-block sidenav-user-arrow align-middle"
+                  ></i>
                 </span>
               </a>
               <div class="dropdown-menu dropdown-menu-end active">
@@ -106,7 +156,10 @@
                 </a>
 
                 <!-- item-->
-                <a href="auth-logout.html" class="dropdown-item active fw-semibold text-danger">
+                <a
+                  href="auth-logout.html"
+                  class="dropdown-item active fw-semibold text-danger"
+                >
                   <i class="ri-logout-box-line me-1 fs-16 align-middle"></i>
                   <span class="align-middle">Sign Out</span>
                 </a>
@@ -125,13 +178,21 @@
 
             <li class="side-nav-item">
               <a href="apps-master-data.html" class="side-nav-link">
-                <span class="menu-icon"><i class="ti ti-brand-databricks"></i></span>
+                <span class="menu-icon"
+                  ><i class="ti ti-brand-databricks"></i
+                ></span>
                 <span class="menu-text"> Master Data </span>
               </a>
             </li>
 
             <li class="side-nav-item">
-              <a data-bs-toggle="collapse" href="#sidebarMonitoring" aria-expanded="false" aria-controls="sidebarMonitoring" class="side-nav-link">
+              <a
+                data-bs-toggle="collapse"
+                href="#sidebarMonitoring"
+                aria-expanded="false"
+                aria-controls="sidebarMonitoring"
+                class="side-nav-link"
+              >
                 <span class="menu-icon"><i class="ti ti-user-shield"></i></span>
                 <span class="menu-text"> Monitoring </span>
                 <span class="menu-arrow"></span>
@@ -162,8 +223,16 @@
             <li class="side-nav-title mt-2">Administrator</li>
 
             <li class="side-nav-item">
-              <a data-bs-toggle="collapse" href="#sidebarContacts" aria-expanded="false" aria-controls="sidebarContacts" class="side-nav-link">
-                <span class="menu-icon"><i class="ti ti-user-square-rounded"></i></span>
+              <a
+                data-bs-toggle="collapse"
+                href="#sidebarContacts"
+                aria-expanded="false"
+                aria-controls="sidebarContacts"
+                class="side-nav-link"
+              >
+                <span class="menu-icon"
+                  ><i class="ti ti-user-square-rounded"></i
+                ></span>
                 <span class="menu-text"> Akun</span>
                 <span class="menu-arrow"></span>
               </a>
@@ -194,13 +263,21 @@
             <!-- Brand Logo -->
             <a href="index.html" class="logo">
               <span class="logo-light">
-                <span class="logo-lg"><img src="assets/images/logo.png" alt="logo" /></span>
-                <span class="logo-sm"><img src="assets/images/logo-sm.png" alt="small logo" /></span>
+                <span class="logo-lg"
+                  ><img src="assets/images/logo.png" alt="logo"
+                /></span>
+                <span class="logo-sm"
+                  ><img src="assets/images/logo-sm.png" alt="small logo"
+                /></span>
               </span>
 
               <span class="logo-dark">
-                <span class="logo-lg"><img src="assets/images/logo-dark.png" alt="dark logo" /></span>
-                <span class="logo-sm"><img src="assets/images/logo-sm.png" alt="small logo" /></span>
+                <span class="logo-lg"
+                  ><img src="assets/images/logo-dark.png" alt="dark logo"
+                /></span>
+                <span class="logo-sm"
+                  ><img src="assets/images/logo-sm.png" alt="small logo"
+                /></span>
               </span>
             </a>
 
@@ -210,7 +287,11 @@
             </button>
 
             <!-- Horizontal Menu Toggle Button -->
-            <button class="topnav-toggle-button px-2" data-bs-toggle="collapse" data-bs-target="#topnav-menu-content">
+            <button
+              class="topnav-toggle-button px-2"
+              data-bs-toggle="collapse"
+              data-bs-target="#topnav-menu-content"
+            >
               <i class="ri-menu-5-line fs-24"></i>
             </button>
 
@@ -226,51 +307,102 @@
             <!-- Notification Dropdown -->
             <div class="topbar-item">
               <div class="dropdown">
-                <button class="topbar-link dropdown-toggle drop-arrow-none" data-bs-toggle="dropdown" data-bs-offset="0,25" type="button" data-bs-auto-close="outside" aria-haspopup="false" aria-expanded="false">
-                  <i class="ri-notification-snooze-line animate-ring fs-22 text-danger"></i>
+                <button
+                  class="topbar-link dropdown-toggle drop-arrow-none"
+                  data-bs-toggle="dropdown"
+                  data-bs-offset="0,25"
+                  type="button"
+                  data-bs-auto-close="outside"
+                  aria-haspopup="false"
+                  aria-expanded="false"
+                >
+                  <i
+                    class="ri-notification-snooze-line animate-ring fs-22 text-danger"
+                  ></i>
                   <span class="noti-icon-badge"></span>
                 </button>
 
-                <div class="dropdown-menu p-0 dropdown-menu-end dropdown-menu-lg" style="min-height: 300px">
-                  <div class="p-2 border-bottom position-relative border-dashed">
+                <div
+                  class="dropdown-menu p-0 dropdown-menu-end dropdown-menu-lg"
+                  style="min-height: 300px"
+                >
+                  <div
+                    class="p-2 border-bottom position-relative border-dashed"
+                  >
                     <div class="row align-items-center">
                       <div class="col">
                         <h6 class="m-0 fs-16 fw-semibold">Notifications</h6>
                       </div>
                       <div class="col-auto">
                         <div class="dropdown">
-                          <a href="#" class="dropdown-toggle drop-arrow-none link-dark" data-bs-toggle="dropdown" data-bs-offset="0,15" aria-expanded="false">
-                            <i class="ri-settings-2-line fs-22 align-middle"></i>
+                          <a
+                            href="#"
+                            class="dropdown-toggle drop-arrow-none link-dark"
+                            data-bs-toggle="dropdown"
+                            data-bs-offset="0,15"
+                            aria-expanded="false"
+                          >
+                            <i
+                              class="ri-settings-2-line fs-22 align-middle"
+                            ></i>
                           </a>
                           <div class="dropdown-menu dropdown-menu-end">
                             <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item">Mark as Read</a>
+                            <a href="javascript:void(0);" class="dropdown-item"
+                              >Mark as Read</a
+                            >
                             <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item">Delete All</a>
+                            <a href="javascript:void(0);" class="dropdown-item"
+                              >Delete All</a
+                            >
                             <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item">Do not Disturb</a>
+                            <a href="javascript:void(0);" class="dropdown-item"
+                              >Do not Disturb</a
+                            >
                             <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item">Other Settings</a>
+                            <a href="javascript:void(0);" class="dropdown-item"
+                              >Other Settings</a
+                            >
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
 
-                  <div class="position-relative rounded-0" style="max-height: 300px" data-simplebar>
+                  <div
+                    class="position-relative rounded-0"
+                    style="max-height: 300px"
+                    data-simplebar
+                  >
                     <!-- item Gedung -->
-                    <div class="dropdown-item notification-item py-2 text-wrap active" id="notification-1">
+                    <div
+                      class="dropdown-item notification-item py-2 text-wrap active"
+                      id="notification-1"
+                    >
                       <span class="d-flex align-items-center">
                         <span class="me-3 position-relative flex-shrink-0">
-                          <img src="assets/images/users/avatar-2.jpg" class="avatar-lg rounded-circle" alt="Admin Gedung" />
+                          <img
+                            src="assets/images/users/avatar-2.jpg"
+                            class="avatar-lg rounded-circle"
+                            alt="Admin Gedung"
+                          />
                         </span>
                         <span class="flex-grow-1 text-muted">
-                          <span class="fw-medium text-body">Admin Gedung</span> meminta penggunaan <span class="fw-medium text-body">sertifikat</span> milik <span class="fw-medium text-body">Andi Saputra</span> (Divisi Infrastruktur 1).
+                          <span class="fw-medium text-body">Admin Gedung</span>
+                          meminta penggunaan
+                          <span class="fw-medium text-body">sertifikat</span>
+                          milik
+                          <span class="fw-medium text-body">Andi Saputra</span>
+                          (Divisi Infrastruktur 1).
                           <br />
                           <span class="fs-12">5m yang lalu</span>
                         </span>
                         <span class="notification-item-close">
-                          <button type="button" class="btn btn-ghost-danger rounded-circle btn-sm btn-icon" data-dismissible="#notification-1">
+                          <button
+                            type="button"
+                            class="btn btn-ghost-danger rounded-circle btn-sm btn-icon"
+                            data-dismissible="#notification-1"
+                          >
                             <i class="ri-close-line fs-16"></i>
                           </button>
                         </span>
@@ -278,18 +410,36 @@
                     </div>
 
                     <!-- item Infrastruktur 1 -->
-                    <div class="dropdown-item notification-item py-2 text-wrap" id="notification-2">
+                    <div
+                      class="dropdown-item notification-item py-2 text-wrap"
+                      id="notification-2"
+                    >
                       <span class="d-flex align-items-center">
                         <span class="me-3 position-relative flex-shrink-0">
-                          <img src="assets/images/users/avatar-2.jpg" class="avatar-lg rounded-circle" alt="Admin Infrastruktur 1" />
+                          <img
+                            src="assets/images/users/avatar-2.jpg"
+                            class="avatar-lg rounded-circle"
+                            alt="Admin Infrastruktur 1"
+                          />
                         </span>
                         <span class="flex-grow-1 text-muted">
-                          <span class="fw-medium text-body">Admin Infrastruktur 1</span> meminta penggunaan <span class="fw-medium text-body">sertifikat</span> milik <span class="fw-medium text-body">Budi Santoso</span> (Divisi Gedung).
+                          <span class="fw-medium text-body"
+                            >Admin Infrastruktur 1</span
+                          >
+                          meminta penggunaan
+                          <span class="fw-medium text-body">sertifikat</span>
+                          milik
+                          <span class="fw-medium text-body">Budi Santoso</span>
+                          (Divisi Gedung).
                           <br />
                           <span class="fs-12">15m yang lalu</span>
                         </span>
                         <span class="notification-item-close">
-                          <button type="button" class="btn btn-ghost-danger rounded-circle btn-sm btn-icon" data-dismissible="#notification-2">
+                          <button
+                            type="button"
+                            class="btn btn-ghost-danger rounded-circle btn-sm btn-icon"
+                            data-dismissible="#notification-2"
+                          >
                             <i class="ri-close-line fs-16"></i>
                           </button>
                         </span>
@@ -297,18 +447,36 @@
                     </div>
 
                     <!-- item Infrastruktur 2 -->
-                    <div class="dropdown-item notification-item py-2 text-wrap" id="notification-3">
+                    <div
+                      class="dropdown-item notification-item py-2 text-wrap"
+                      id="notification-3"
+                    >
                       <span class="d-flex align-items-center">
                         <span class="me-3 position-relative flex-shrink-0">
-                          <img src="assets/images/users/avatar-2.jpg" class="avatar-lg rounded-circle" alt="Admin Infrastruktur 2" />
+                          <img
+                            src="assets/images/users/avatar-2.jpg"
+                            class="avatar-lg rounded-circle"
+                            alt="Admin Infrastruktur 2"
+                          />
                         </span>
                         <span class="flex-grow-1 text-muted">
-                          <span class="fw-medium text-body">Admin Infrastruktur 2</span> meminta penggunaan <span class="fw-medium text-body">sertifikat</span> milik <span class="fw-medium text-body">Citra Dewi</span> (Divisi EPC).
+                          <span class="fw-medium text-body"
+                            >Admin Infrastruktur 2</span
+                          >
+                          meminta penggunaan
+                          <span class="fw-medium text-body">sertifikat</span>
+                          milik
+                          <span class="fw-medium text-body">Citra Dewi</span>
+                          (Divisi EPC).
                           <br />
                           <span class="fs-12">30m yang lalu</span>
                         </span>
                         <span class="notification-item-close">
-                          <button type="button" class="btn btn-ghost-danger rounded-circle btn-sm btn-icon" data-dismissible="#notification-3">
+                          <button
+                            type="button"
+                            class="btn btn-ghost-danger rounded-circle btn-sm btn-icon"
+                            data-dismissible="#notification-3"
+                          >
                             <i class="ri-close-line fs-16"></i>
                           </button>
                         </span>
@@ -316,18 +484,36 @@
                     </div>
 
                     <!-- item EPC -->
-                    <div class="dropdown-item notification-item py-2 text-wrap" id="notification-4">
+                    <div
+                      class="dropdown-item notification-item py-2 text-wrap"
+                      id="notification-4"
+                    >
                       <span class="d-flex align-items-center">
                         <span class="me-3 position-relative flex-shrink-0">
-                          <img src="assets/images/users/avatar-2.jpg" class="avatar-lg rounded-circle" alt="Admin EPC" />
+                          <img
+                            src="assets/images/users/avatar-2.jpg"
+                            class="avatar-lg rounded-circle"
+                            alt="Admin EPC"
+                          />
                         </span>
                         <span class="flex-grow-1 text-muted">
-                          <span class="fw-medium text-body">Admin EPC</span> meminta penggunaan <span class="fw-medium text-body">sertifikat</span> milik <span class="fw-medium text-body">Dedi Firmansyah</span> (Divisi Infrastruktur 2).
+                          <span class="fw-medium text-body">Admin EPC</span>
+                          meminta penggunaan
+                          <span class="fw-medium text-body">sertifikat</span>
+                          milik
+                          <span class="fw-medium text-body"
+                            >Dedi Firmansyah</span
+                          >
+                          (Divisi Infrastruktur 2).
                           <br />
                           <span class="fs-12">1h yang lalu</span>
                         </span>
                         <span class="notification-item-close">
-                          <button type="button" class="btn btn-ghost-danger rounded-circle btn-sm btn-icon" data-dismissible="#notification-4">
+                          <button
+                            type="button"
+                            class="btn btn-ghost-danger rounded-circle btn-sm btn-icon"
+                            data-dismissible="#notification-4"
+                          >
                             <i class="ri-close-line fs-16"></i>
                           </button>
                         </span>
@@ -351,7 +537,12 @@
 
             <!-- Button Trigger Customizer Offcanvas -->
             <div class="topbar-item d-none d-sm-flex">
-              <button class="topbar-link" data-bs-toggle="offcanvas" data-bs-target="#theme-settings-offcanvas" type="button">
+              <button
+                class="topbar-link"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#theme-settings-offcanvas"
+                type="button"
+              >
                 <i class="ri-settings-4-line fs-22"></i>
               </button>
             </div>
@@ -382,18 +573,31 @@
                     <div class="card-body">
                       <div class="d-flex justify-content-between">
                         <div class="d-flex">
-                          <img src="assets/images/users/avatar-2.jpg" class="rounded-circle img-thumbnail me-3" style="width: 80px; height: 80px; flex-shrink: 0" alt="profile" />
+                          <img
+                            src="assets/images/users/avatar-2.jpg"
+                            class="rounded-circle img-thumbnail me-3"
+                            style="width: 80px; height: 80px; flex-shrink: 0"
+                            alt="profile"
+                          />
                           <div class="flex-grow-1">
                             <h5 class="mb-1">Asep Sedunia</h5>
                             <p class="text-muted mb-2">
                               <small><i>Admin Utama - Human Capital</i></small>
                             </p>
-                            <p class="text-muted small mb-2">Bergabung sejak <strong>12 Januari 2022</strong></p>
-                            <span class="badge bg-success-subtle text-success">Aktif</span>
+                            <p class="text-muted small mb-2">
+                              Bergabung sejak <strong>12 Januari 2022</strong>
+                            </p>
+                            <span class="badge bg-success-subtle text-success"
+                              >Aktif</span
+                            >
                           </div>
                         </div>
                         <div>
-                          <button class="btn btn-soft-success" data-bs-toggle="modal" data-bs-target="#editProfileModal">
+                          <button
+                            class="btn btn-soft-success"
+                            data-bs-toggle="modal"
+                            data-bs-target="#editProfileModal"
+                          >
                             <i class="ti ti-pencil"></i>
                           </button>
                         </div>
@@ -406,43 +610,110 @@
                 <div class="col-12">
                   <div class="card h-100">
                     <div class="card-body">
-                      <h6 class="fw-semibold mb-3"><i class="ti ti-info-circle text-success me-2"></i>Informasi Pribadi</h6>
+                      <h6 class="fw-semibold mb-3">
+                        <i class="ti ti-info-circle text-success me-2"></i
+                        >Informasi Pribadi
+                      </h6>
                       <div class="row g-2">
                         <div class="col-12">
-                          <label class="form-label text-muted small mb-1">Nama Lengkap</label>
-                          <input type="text" class="form-control form-control-sm" value="Asep Sedunia" readonly />
+                          <label class="form-label text-muted small mb-1"
+                            >Nama Lengkap</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control form-control-sm"
+                            value="Asep Sedunia"
+                            readonly
+                          />
                         </div>
                         <div class="col-12">
-                          <label class="form-label text-muted small mb-1">NIP / ID Pegawai</label>
-                          <input type="text" class="form-control form-control-sm" value="EMP-20221123" readonly />
+                          <label class="form-label text-muted small mb-1"
+                            >NIP / ID Pegawai</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control form-control-sm"
+                            value="EMP-20221123"
+                            readonly
+                          />
                         </div>
                         <div class="col-12">
-                          <label class="form-label text-muted small mb-1">Email</label>
-                          <input type="email" class="form-control form-control-sm" value="fahmi@company.co.id" readonly />
+                          <label class="form-label text-muted small mb-1"
+                            >Email</label
+                          >
+                          <input
+                            type="email"
+                            class="form-control form-control-sm"
+                            value="fahmi@company.co.id"
+                            readonly
+                          />
                         </div>
                         <div class="col-12">
-                          <label class="form-label text-muted small mb-1">Nomor Telepon</label>
-                          <input type="text" class="form-control form-control-sm" value="+62 812-3456-7890" readonly />
+                          <label class="form-label text-muted small mb-1"
+                            >Nomor Telepon</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control form-control-sm"
+                            value="+62 812-3456-7890"
+                            readonly
+                          />
                         </div>
                         <div class="col-6">
-                          <label class="form-label text-muted small mb-1">Divisi</label>
-                          <input type="text" class="form-control form-control-sm" value="Human Capital" readonly />
+                          <label class="form-label text-muted small mb-1"
+                            >Divisi</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control form-control-sm"
+                            value="Human Capital"
+                            readonly
+                          />
                         </div>
                         <div class="col-6">
-                          <label class="form-label text-muted small mb-1">Jabatan</label>
-                          <input type="text" class="form-control form-control-sm" value="Admin Utama" readonly />
+                          <label class="form-label text-muted small mb-1"
+                            >Jabatan</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control form-control-sm"
+                            value="Admin Utama"
+                            readonly
+                          />
                         </div>
                         <div class="col-6">
-                          <label class="form-label text-muted small mb-1">Jenis Kelamin</label>
-                          <input type="text" class="form-control form-control-sm" value="Laki-laki" readonly />
+                          <label class="form-label text-muted small mb-1"
+                            >Jenis Kelamin</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control form-control-sm"
+                            value="Laki-laki"
+                            readonly
+                          />
                         </div>
                         <div class="col-6">
-                          <label class="form-label text-muted small mb-1">Tanggal Lahir</label>
-                          <input type="text" class="form-control form-control-sm" value="15 Agustus 1996" readonly />
+                          <label class="form-label text-muted small mb-1"
+                            >Tanggal Lahir</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control form-control-sm"
+                            value="15 Agustus 1996"
+                            readonly
+                          />
                         </div>
                         <div class="col-12">
-                          <label class="form-label text-muted small mb-1">Alamat</label>
-                          <textarea class="form-control form-control-sm" rows="2" readonly>Jl. Pahlawan No. 45, Jakarta Selatan</textarea>
+                          <label class="form-label text-muted small mb-1"
+                            >Alamat</label
+                          >
+                          <textarea
+                            class="form-control form-control-sm"
+                            rows="2"
+                            readonly
+                          >
+Jl. Pahlawan No. 45, Jakarta Selatan</textarea
+                          >
                         </div>
                       </div>
                     </div>
@@ -455,8 +726,13 @@
             <div class="col-lg-5">
               <div class="card h-100">
                 <div class="card-body">
-                  <div class="d-flex justify-content-between align-items-center mb-3">
-                    <h5 class="fw-semibold mb-0"><i class="ti ti-notes text-success me-2"></i>Catatan Pribadi</h5>
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-3"
+                  >
+                    <h5 class="fw-semibold mb-0">
+                      <i class="ti ti-notes text-success me-2"></i>Catatan
+                      Pribadi
+                    </h5>
                     <button type="submit" class="btn btn-soft-success">
                       <i class="ti ti-device-floppy"></i>
                     </button>
@@ -481,7 +757,10 @@
             <div class="col-lg-3">
               <div class="card h-100">
                 <div class="card-body">
-                  <h5 class="fw-semibold mb-3"><i class="ti ti-history text-success me-2"></i>Riwayat Aktivitas</h5>
+                  <h5 class="fw-semibold mb-3">
+                    <i class="ti ti-history text-success me-2"></i>Riwayat
+                    Aktivitas
+                  </h5>
                   <div class="list-group list-group-flush small">
                     <div class="list-group-item px-0">
                       <div class="d-flex justify-content-between mb-1">
@@ -492,7 +771,9 @@
                     </div>
                     <div class="list-group-item px-0">
                       <div class="d-flex justify-content-between mb-1">
-                        <span class="fw-semibold">Menambahkan pengguna baru</span>
+                        <span class="fw-semibold"
+                          >Menambahkan pengguna baru</span
+                        >
                         <small class="text-muted">30 Okt 2025</small>
                       </div>
                       <p class="mb-0 text-muted">User: Andi Saputra</p>
@@ -534,12 +815,25 @@
       </div>
 
       <!-- Modal Edit Profil -->
-      <div class="modal fade" id="editProfileModal" tabindex="-1" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
+      <div
+        class="modal fade"
+        id="editProfileModal"
+        tabindex="-1"
+        aria-hidden="true"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+      >
         <div class="modal-dialog modal-lg modal-dialog-centered">
           <div class="modal-content border-0 rounded-3">
             <div class="modal-header border-0">
-              <h5 class="modal-title fw-semibold"><i class="ti ti-pencil text-success me-2"></i>Edit Profil</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              <h5 class="modal-title fw-semibold">
+                <i class="ti ti-pencil text-success me-2"></i>Edit Profil
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+              ></button>
             </div>
 
             <form id="editProfileForm">
@@ -548,25 +842,43 @@
                   <!-- Nama Lengkap -->
                   <div class="col-md-6">
                     <label class="form-label fw-semibold">Nama Lengkap</label>
-                    <input type="text" class="form-control" value="Asep Sedunia" />
+                    <input
+                      type="text"
+                      class="form-control"
+                      value="Asep Sedunia"
+                    />
                   </div>
 
                   <!-- NIP -->
                   <div class="col-md-6">
-                    <label class="form-label fw-semibold">NIP / ID Pegawai</label>
-                    <input type="text" class="form-control" value="EMP-20221123" />
+                    <label class="form-label fw-semibold"
+                      >NIP / ID Pegawai</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      value="EMP-20221123"
+                    />
                   </div>
 
                   <!-- Email -->
                   <div class="col-md-6">
                     <label class="form-label fw-semibold">Email</label>
-                    <input type="email" class="form-control" value="fahmi@company.co.id" />
+                    <input
+                      type="email"
+                      class="form-control"
+                      value="fahmi@company.co.id"
+                    />
                   </div>
 
                   <!-- Nomor Telepon -->
                   <div class="col-md-6">
                     <label class="form-label fw-semibold">Nomor Telepon</label>
-                    <input type="text" class="form-control" value="+62 812-3456-7890" />
+                    <input
+                      type="text"
+                      class="form-control"
+                      value="+62 812-3456-7890"
+                    />
                   </div>
 
                   <!-- Divisi -->
@@ -583,7 +895,11 @@
                   <!-- Jabatan -->
                   <div class="col-md-6">
                     <label class="form-label fw-semibold">Jabatan</label>
-                    <input type="text" class="form-control" value="Admin Utama" />
+                    <input
+                      type="text"
+                      class="form-control"
+                      value="Admin Utama"
+                    />
                   </div>
 
                   <!-- Jenis Kelamin -->
@@ -598,24 +914,38 @@
                   <!-- Tanggal Lahir -->
                   <div class="col-md-6">
                     <label class="form-label fw-semibold">Tanggal Lahir</label>
-                    <input type="date" class="form-control" value="1996-08-15" />
+                    <input
+                      type="date"
+                      class="form-control"
+                      value="1996-08-15"
+                    />
                   </div>
 
                   <!-- Alamat -->
                   <div class="col-md-12">
                     <label class="form-label fw-semibold">Alamat</label>
-                    <textarea class="form-control" rows="2">Jl. Pahlawan No. 45, Jakarta Selatan</textarea>
+                    <textarea class="form-control" rows="2">
+Jl. Pahlawan No. 45, Jakarta Selatan</textarea
+                    >
                   </div>
 
                   <!-- Tanggal Bergabung -->
                   <div class="col-md-6">
-                    <label class="form-label fw-semibold">Tanggal Bergabung</label>
-                    <input type="date" class="form-control" value="2022-01-12" />
+                    <label class="form-label fw-semibold"
+                      >Tanggal Bergabung</label
+                    >
+                    <input
+                      type="date"
+                      class="form-control"
+                      value="2022-01-12"
+                    />
                   </div>
 
                   <!-- Status Kepegawaian -->
                   <div class="col-md-6">
-                    <label class="form-label fw-semibold">Status Kepegawaian</label>
+                    <label class="form-label fw-semibold"
+                      >Status Kepegawaian</label
+                    >
                     <select class="form-select">
                       <option selected>Pegawai Tetap</option>
                       <option>Pegawai Kontrak</option>
@@ -625,7 +955,9 @@
 
                   <!-- Pendidikan Terakhir -->
                   <div class="col-md-6">
-                    <label class="form-label fw-semibold">Pendidikan Terakhir</label>
+                    <label class="form-label fw-semibold"
+                      >Pendidikan Terakhir</label
+                    >
                     <select class="form-select">
                       <option selected>S1 Teknik Sipil</option>
                       <option>S2 Manajemen Konstruksi</option>
@@ -645,13 +977,21 @@
                   <!-- Foto Profil -->
                   <div class="col-md-12">
                     <label class="form-label fw-semibold">Foto Profil</label>
-                    <input type="file" class="form-control form-control-sm" accept="image/*" />
+                    <input
+                      type="file"
+                      class="form-control form-control-sm"
+                      accept="image/*"
+                    />
                   </div>
                 </div>
               </div>
 
               <div class="modal-footer border-0">
-                <button type="button" class="btn btn-soft-secondary" data-bs-dismiss="modal">
+                <button
+                  type="button"
+                  class="btn btn-soft-secondary"
+                  data-bs-dismiss="modal"
+                >
                   <i class="ti ti-x"></i>
                 </button>
                 <button type="submit" class="btn btn-soft-success">
@@ -664,55 +1004,116 @@
       </div>
 
       <!-- Modal Edit Profile -->
-      <div class="modal fade" id="editProfileModal" tabindex="-1" aria-labelledby="editProfileModalLabel" aria-hidden="true">
+      <div
+        class="modal fade"
+        id="editProfileModal"
+        tabindex="-1"
+        aria-labelledby="editProfileModalLabel"
+        aria-hidden="true"
+      >
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="editProfileModalLabel"><i class="ti ti-pencil text-success me-2"></i>Edit Data Pribadi</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              <h5 class="modal-title" id="editProfileModalLabel">
+                <i class="ti ti-pencil text-success me-2"></i>Edit Data Pribadi
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
             </div>
             <div class="modal-body">
               <form id="editProfileForm">
                 <div class="row g-3">
                   <!-- Upload Foto -->
                   <div class="col-12 text-center mb-3">
-                    <img src="https://via.placeholder.com/120" class="rounded-circle img-thumbnail mb-3" style="width: 120px; height: 120px" alt="profile" id="previewImage" />
+                    <img
+                      src="https://via.placeholder.com/120"
+                      class="rounded-circle img-thumbnail mb-3"
+                      style="width: 120px; height: 120px"
+                      alt="profile"
+                      id="previewImage"
+                    />
                     <div>
-                      <label for="uploadPhoto" class="btn btn-sm btn-soft-success"> <i class="ti ti-upload"></i> Upload Foto </label>
-                      <input type="file" id="uploadPhoto" class="d-none" accept="image/*" />
+                      <label
+                        for="uploadPhoto"
+                        class="btn btn-sm btn-soft-success"
+                      >
+                        <i class="ti ti-upload"></i> Upload Foto
+                      </label>
+                      <input
+                        type="file"
+                        id="uploadPhoto"
+                        class="d-none"
+                        accept="image/*"
+                      />
                     </div>
                   </div>
 
                   <!-- Nama Lengkap -->
                   <div class="col-12">
-                    <label class="form-label text-muted small mb-1">Nama Lengkap <span class="text-danger">*</span></label>
-                    <input type="text" class="form-control form-control-sm" value="Asep Sedunia" required />
+                    <label class="form-label text-muted small mb-1"
+                      >Nama Lengkap <span class="text-danger">*</span></label
+                    >
+                    <input
+                      type="text"
+                      class="form-control form-control-sm"
+                      value="Asep Sedunia"
+                      required
+                    />
                   </div>
 
                   <!-- NIP -->
                   <div class="col-12">
-                    <label class="form-label text-muted small mb-1">NIP / ID Pegawai</label>
-                    <input type="text" class="form-control form-control-sm" value="EMP-20221123" readonly />
+                    <label class="form-label text-muted small mb-1"
+                      >NIP / ID Pegawai</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control form-control-sm"
+                      value="EMP-20221123"
+                      readonly
+                    />
                   </div>
 
                   <!-- Email -->
                   <div class="col-12">
-                    <label class="form-label text-muted small mb-1">Email <span class="text-danger">*</span></label>
-                    <input type="email" class="form-control form-control-sm" value="fahmi@company.co.id" required />
+                    <label class="form-label text-muted small mb-1"
+                      >Email <span class="text-danger">*</span></label
+                    >
+                    <input
+                      type="email"
+                      class="form-control form-control-sm"
+                      value="fahmi@company.co.id"
+                      required
+                    />
                   </div>
 
                   <!-- Nomor Telepon -->
                   <div class="col-12">
-                    <label class="form-label text-muted small mb-1">Nomor Telepon <span class="text-danger">*</span></label>
-                    <input type="text" class="form-control form-control-sm" value="+62 812-3456-7890" required />
+                    <label class="form-label text-muted small mb-1"
+                      >Nomor Telepon <span class="text-danger">*</span></label
+                    >
+                    <input
+                      type="text"
+                      class="form-control form-control-sm"
+                      value="+62 812-3456-7890"
+                      required
+                    />
                   </div>
 
                   <!-- Divisi & Jabatan -->
                   <div class="col-6">
-                    <label class="form-label text-muted small mb-1">Divisi <span class="text-danger">*</span></label>
+                    <label class="form-label text-muted small mb-1"
+                      >Divisi <span class="text-danger">*</span></label
+                    >
                     <select class="form-select form-select-sm" required>
                       <option value="">Pilih Divisi</option>
-                      <option value="Human Capital" selected>Human Capital</option>
+                      <option value="Human Capital" selected>
+                        Human Capital
+                      </option>
                       <option value="Finance">Finance</option>
                       <option value="IT">IT</option>
                       <option value="Marketing">Marketing</option>
@@ -721,13 +1122,22 @@
                   </div>
 
                   <div class="col-6">
-                    <label class="form-label text-muted small mb-1">Jabatan <span class="text-danger">*</span></label>
-                    <input type="text" class="form-control form-control-sm" value="Admin Utama" required />
+                    <label class="form-label text-muted small mb-1"
+                      >Jabatan <span class="text-danger">*</span></label
+                    >
+                    <input
+                      type="text"
+                      class="form-control form-control-sm"
+                      value="Admin Utama"
+                      required
+                    />
                   </div>
 
                   <!-- Jenis Kelamin & Tanggal Lahir -->
                   <div class="col-6">
-                    <label class="form-label text-muted small mb-1">Jenis Kelamin <span class="text-danger">*</span></label>
+                    <label class="form-label text-muted small mb-1"
+                      >Jenis Kelamin <span class="text-danger">*</span></label
+                    >
                     <select class="form-select form-select-sm" required>
                       <option value="">Pilih Jenis Kelamin</option>
                       <option value="Laki-laki" selected>Laki-laki</option>
@@ -736,21 +1146,48 @@
                   </div>
 
                   <div class="col-6">
-                    <label class="form-label text-muted small mb-1">Tanggal Lahir <span class="text-danger">*</span></label>
-                    <input type="date" class="form-control form-control-sm" value="1996-08-15" required />
+                    <label class="form-label text-muted small mb-1"
+                      >Tanggal Lahir <span class="text-danger">*</span></label
+                    >
+                    <input
+                      type="date"
+                      class="form-control form-control-sm"
+                      value="1996-08-15"
+                      required
+                    />
                   </div>
 
                   <!-- Alamat -->
                   <div class="col-12">
-                    <label class="form-label text-muted small mb-1">Alamat <span class="text-danger">*</span></label>
-                    <textarea class="form-control form-control-sm" rows="2" required>Jl. Pahlawan No. 45, Jakarta Selatan</textarea>
+                    <label class="form-label text-muted small mb-1"
+                      >Alamat <span class="text-danger">*</span></label
+                    >
+                    <textarea
+                      class="form-control form-control-sm"
+                      rows="2"
+                      required
+                    >
+Jl. Pahlawan No. 45, Jakarta Selatan</textarea
+                    >
                   </div>
                 </div>
               </form>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><i class="ti ti-x"></i> Batal</button>
-              <button type="submit" form="editProfileForm" class="btn btn-success"><i class="ti ti-check"></i> Simpan Perubahan</button>
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                <i class="ti ti-x"></i> Batal
+              </button>
+              <button
+                type="submit"
+                form="editProfileForm"
+                class="btn btn-success"
+              >
+                <i class="ti ti-check"></i> Simpan Perubahan
+              </button>
             </div>
           </div>
         </div>
@@ -762,11 +1199,22 @@
     <!-- END wrapper -->
 
     <!-- Theme Settings -->
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="theme-settings-offcanvas">
-      <div class="d-flex align-items-center gap-2 px-3 py-3 offcanvas-header border-bottom border-dashed">
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="theme-settings-offcanvas"
+    >
+      <div
+        class="d-flex align-items-center gap-2 px-3 py-3 offcanvas-header border-bottom border-dashed"
+      >
         <h5 class="flex-grow-1 fs-16 fw-bold mb-0">Theme Settings</h5>
 
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
       </div>
 
       <div class="offcanvas-body p-0 h-100" data-simplebar>
@@ -776,9 +1224,21 @@
           <div class="row">
             <div class="col-4">
               <div class="form-check card-radio">
-                <input class="form-check-input" type="radio" name="data-bs-theme" id="layout-color-light" value="light" />
-                <label class="form-check-label p-3 w-100 d-flex justify-content-center align-items-center" for="layout-color-light">
-                  <iconify-icon icon="solar:sun-bold-duotone" class="fs-32 text-muted"></iconify-icon>
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="data-bs-theme"
+                  id="layout-color-light"
+                  value="light"
+                />
+                <label
+                  class="form-check-label p-3 w-100 d-flex justify-content-center align-items-center"
+                  for="layout-color-light"
+                >
+                  <iconify-icon
+                    icon="solar:sun-bold-duotone"
+                    class="fs-32 text-muted"
+                  ></iconify-icon>
                 </label>
               </div>
               <h5 class="fs-14 text-center text-muted mt-2">Light</h5>
@@ -786,9 +1246,21 @@
 
             <div class="col-4">
               <div class="form-check card-radio">
-                <input class="form-check-input" type="radio" name="data-bs-theme" id="layout-color-dark" value="dark" />
-                <label class="form-check-label p-3 w-100 d-flex justify-content-center align-items-center" for="layout-color-dark">
-                  <iconify-icon icon="solar:cloud-sun-2-bold-duotone" class="fs-32 text-muted"></iconify-icon>
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="data-bs-theme"
+                  id="layout-color-dark"
+                  value="dark"
+                />
+                <label
+                  class="form-check-label p-3 w-100 d-flex justify-content-center align-items-center"
+                  for="layout-color-dark"
+                >
+                  <iconify-icon
+                    icon="solar:cloud-sun-2-bold-duotone"
+                    class="fs-32 text-muted"
+                  ></iconify-icon>
                 </label>
               </div>
               <h5 class="fs-14 text-center text-muted mt-2">Dark</h5>
@@ -802,17 +1274,38 @@
           <div class="row">
             <div class="col-4">
               <div class="form-check card-radio">
-                <input class="form-check-input" type="radio" name="data-layout-mode" id="layout-mode-fluid" value="fluid" />
-                <label class="form-check-label p-0 avatar-xl w-100" for="layout-mode-fluid">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="data-layout-mode"
+                  id="layout-mode-fluid"
+                  value="fluid"
+                />
+                <label
+                  class="form-check-label p-0 avatar-xl w-100"
+                  for="layout-mode-fluid"
+                >
                   <div>
                     <span class="d-flex h-100">
                       <span class="flex-shrink-0">
-                        <span class="bg-light d-flex h-100 border-end flex-column p-1 px-2">
-                          <span class="d-block p-1 bg-dark-subtle rounded mb-1"></span>
-                          <span class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"></span>
-                          <span class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"></span>
-                          <span class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"></span>
-                          <span class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"></span>
+                        <span
+                          class="bg-light d-flex h-100 border-end flex-column p-1 px-2"
+                        >
+                          <span
+                            class="d-block p-1 bg-dark-subtle rounded mb-1"
+                          ></span>
+                          <span
+                            class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"
+                          ></span>
+                          <span
+                            class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"
+                          ></span>
+                          <span
+                            class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"
+                          ></span>
+                          <span
+                            class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"
+                          ></span>
                         </span>
                       </span>
                       <span class="flex-grow-1">
@@ -825,12 +1318,24 @@
 
                   <div>
                     <span class="d-flex h-100 flex-column">
-                      <span class="bg-light d-flex p-1 align-items-center border-bottom border-secondary border-opacity-25">
-                        <span class="d-block p-1 bg-dark-subtle rounded me-1"></span>
-                        <span class="d-block border border-3 border-secondary border-opacity-25 rounded ms-auto"></span>
-                        <span class="d-block border border-3 border-secondary border-opacity-25 rounded ms-1"></span>
-                        <span class="d-block border border-3 border-secondary border-opacity-25 rounded ms-1"></span>
-                        <span class="d-block border border-3 border-secondary border-opacity-25 rounded ms-1"></span>
+                      <span
+                        class="bg-light d-flex p-1 align-items-center border-bottom border-secondary border-opacity-25"
+                      >
+                        <span
+                          class="d-block p-1 bg-dark-subtle rounded me-1"
+                        ></span>
+                        <span
+                          class="d-block border border-3 border-secondary border-opacity-25 rounded ms-auto"
+                        ></span>
+                        <span
+                          class="d-block border border-3 border-secondary border-opacity-25 rounded ms-1"
+                        ></span>
+                        <span
+                          class="d-block border border-3 border-secondary border-opacity-25 rounded ms-1"
+                        ></span>
+                        <span
+                          class="d-block border border-3 border-secondary border-opacity-25 rounded ms-1"
+                        ></span>
                       </span>
                       <span class="bg-light d-block p-1"></span>
                     </span>
@@ -842,22 +1347,51 @@
 
             <div class="col-4">
               <div class="form-check sidebar-setting card-radio">
-                <input class="form-check-input" type="radio" name="data-layout-mode" id="data-layout-detached" value="detached" />
-                <label class="form-check-label p-0 avatar-xl w-100" for="data-layout-detached">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="data-layout-mode"
+                  id="data-layout-detached"
+                  value="detached"
+                />
+                <label
+                  class="form-check-label p-0 avatar-xl w-100"
+                  for="data-layout-detached"
+                >
                   <span class="d-flex h-100 flex-column">
-                    <span class="bg-light d-flex p-1 align-items-center border-bottom">
-                      <span class="d-block p-1 bg-dark-subtle rounded me-1"></span>
-                      <span class="d-block border border-3 border-secondary border-opacity-25 rounded ms-auto"></span>
-                      <span class="d-block border border-3 border-secondary border-opacity-25 rounded ms-1"></span>
-                      <span class="d-block border border-3 border-secondary border-opacity-25 rounded ms-1"></span>
-                      <span class="d-block border border-3 border-secondary border-opacity-25 rounded ms-1"></span>
+                    <span
+                      class="bg-light d-flex p-1 align-items-center border-bottom"
+                    >
+                      <span
+                        class="d-block p-1 bg-dark-subtle rounded me-1"
+                      ></span>
+                      <span
+                        class="d-block border border-3 border-secondary border-opacity-25 rounded ms-auto"
+                      ></span>
+                      <span
+                        class="d-block border border-3 border-secondary border-opacity-25 rounded ms-1"
+                      ></span>
+                      <span
+                        class="d-block border border-3 border-secondary border-opacity-25 rounded ms-1"
+                      ></span>
+                      <span
+                        class="d-block border border-3 border-secondary border-opacity-25 rounded ms-1"
+                      ></span>
                     </span>
                     <span class="d-flex h-100 p-1 px-2">
                       <span class="flex-shrink-0">
-                        <span class="bg-light d-flex h-100 flex-column p-1 px-2">
-                          <span class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"></span>
-                          <span class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"></span>
-                          <span class="d-block border border-3 border-secondary border-opacity-25 rounded w-100"></span>
+                        <span
+                          class="bg-light d-flex h-100 flex-column p-1 px-2"
+                        >
+                          <span
+                            class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"
+                          ></span>
+                          <span
+                            class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"
+                          ></span>
+                          <span
+                            class="d-block border border-3 border-secondary border-opacity-25 rounded w-100"
+                          ></span>
                         </span>
                       </span>
                     </span>
@@ -876,10 +1410,23 @@
           <div class="row">
             <div class="col-3">
               <div class="form-check sidebar-setting card-radio">
-                <input class="form-check-input" type="radio" name="data-menu-color" id="sidenav-color-light" value="light" />
-                <label class="form-check-label p-0 avatar-lg w-100 bg-light" for="sidenav-color-light">
-                  <span class="d-flex align-items-center justify-content-center h-100">
-                    <span class="p-2 d-inline-flex shadow rounded-circle bg-white"></span>
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="data-menu-color"
+                  id="sidenav-color-light"
+                  value="light"
+                />
+                <label
+                  class="form-check-label p-0 avatar-lg w-100 bg-light"
+                  for="sidenav-color-light"
+                >
+                  <span
+                    class="d-flex align-items-center justify-content-center h-100"
+                  >
+                    <span
+                      class="p-2 d-inline-flex shadow rounded-circle bg-white"
+                    ></span>
                   </span>
                 </label>
               </div>
@@ -888,10 +1435,24 @@
 
             <div class="col-3">
               <div class="form-check sidebar-setting card-radio">
-                <input class="form-check-input" type="radio" name="data-menu-color" id="sidenav-color-dark" value="dark" />
-                <label class="form-check-label p-0 avatar-lg w-100 bg-light" for="sidenav-color-dark">
-                  <span class="d-flex align-items-center justify-content-center h-100">
-                    <span class="p-2 d-inline-flex shadow rounded-circle" style="background-color: #000000"></span>
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="data-menu-color"
+                  id="sidenav-color-dark"
+                  value="dark"
+                />
+                <label
+                  class="form-check-label p-0 avatar-lg w-100 bg-light"
+                  for="sidenav-color-dark"
+                >
+                  <span
+                    class="d-flex align-items-center justify-content-center h-100"
+                  >
+                    <span
+                      class="p-2 d-inline-flex shadow rounded-circle"
+                      style="background-color: #000000"
+                    ></span>
                   </span>
                 </label>
               </div>
@@ -899,10 +1460,23 @@
             </div>
             <div class="col-3">
               <div class="form-check sidebar-setting card-radio">
-                <input class="form-check-input" type="radio" name="data-menu-color" id="sidenav-color-brand" value="brand" />
-                <label class="form-check-label p-0 avatar-lg w-100 bg-light" for="sidenav-color-brand">
-                  <span class="d-flex align-items-center justify-content-center h-100">
-                    <span class="p-2 d-inline-flex shadow rounded-circle bg-primary"></span>
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="data-menu-color"
+                  id="sidenav-color-brand"
+                  value="brand"
+                />
+                <label
+                  class="form-check-label p-0 avatar-lg w-100 bg-light"
+                  for="sidenav-color-brand"
+                >
+                  <span
+                    class="d-flex align-items-center justify-content-center h-100"
+                  >
+                    <span
+                      class="p-2 d-inline-flex shadow rounded-circle bg-primary"
+                    ></span>
                   </span>
                 </label>
               </div>
@@ -917,16 +1491,37 @@
           <div class="row">
             <div class="col-4">
               <div class="form-check sidebar-setting card-radio">
-                <input class="form-check-input" type="radio" name="data-sidenav-size" id="sidenav-size-default" value="default" />
-                <label class="form-check-label p-0 avatar-xl w-100" for="sidenav-size-default">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="data-sidenav-size"
+                  id="sidenav-size-default"
+                  value="default"
+                />
+                <label
+                  class="form-check-label p-0 avatar-xl w-100"
+                  for="sidenav-size-default"
+                >
                   <span class="d-flex h-100">
                     <span class="flex-shrink-0">
-                      <span class="bg-light d-flex h-100 border-end flex-column p-1 px-2">
-                        <span class="d-block p-1 bg-dark-subtle rounded mb-1"></span>
-                        <span class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"></span>
-                        <span class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"></span>
-                        <span class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"></span>
-                        <span class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"></span>
+                      <span
+                        class="bg-light d-flex h-100 border-end flex-column p-1 px-2"
+                      >
+                        <span
+                          class="d-block p-1 bg-dark-subtle rounded mb-1"
+                        ></span>
+                        <span
+                          class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"
+                        ></span>
+                        <span
+                          class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"
+                        ></span>
+                        <span
+                          class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"
+                        ></span>
+                        <span
+                          class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"
+                        ></span>
                       </span>
                     </span>
                     <span class="flex-grow-1">
@@ -942,16 +1537,37 @@
 
             <div class="col-4">
               <div class="form-check sidebar-setting card-radio">
-                <input class="form-check-input" type="radio" name="data-sidenav-size" id="sidenav-size-compact" value="compact" />
-                <label class="form-check-label p-0 avatar-xl w-100" for="sidenav-size-compact">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="data-sidenav-size"
+                  id="sidenav-size-compact"
+                  value="compact"
+                />
+                <label
+                  class="form-check-label p-0 avatar-xl w-100"
+                  for="sidenav-size-compact"
+                >
                   <span class="d-flex h-100">
                     <span class="flex-shrink-0">
-                      <span class="bg-light d-flex h-100 border-end flex-column p-1">
-                        <span class="d-block p-1 bg-dark-subtle rounded mb-1"></span>
-                        <span class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"></span>
-                        <span class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"></span>
-                        <span class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"></span>
-                        <span class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"></span>
+                      <span
+                        class="bg-light d-flex h-100 border-end flex-column p-1"
+                      >
+                        <span
+                          class="d-block p-1 bg-dark-subtle rounded mb-1"
+                        ></span>
+                        <span
+                          class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"
+                        ></span>
+                        <span
+                          class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"
+                        ></span>
+                        <span
+                          class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"
+                        ></span>
+                        <span
+                          class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"
+                        ></span>
                       </span>
                     </span>
                     <span class="flex-grow-1">
@@ -967,16 +1583,38 @@
 
             <div class="col-4">
               <div class="form-check sidebar-setting card-radio">
-                <input class="form-check-input" type="radio" name="data-sidenav-size" id="sidenav-size-small" value="condensed" />
-                <label class="form-check-label p-0 avatar-xl w-100" for="sidenav-size-small">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="data-sidenav-size"
+                  id="sidenav-size-small"
+                  value="condensed"
+                />
+                <label
+                  class="form-check-label p-0 avatar-xl w-100"
+                  for="sidenav-size-small"
+                >
                   <span class="d-flex h-100">
                     <span class="flex-shrink-0">
-                      <span class="bg-light d-flex h-100 border-end flex-column" style="padding: 2px">
-                        <span class="d-block p-1 bg-dark-subtle rounded mb-1"></span>
-                        <span class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"></span>
-                        <span class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"></span>
-                        <span class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"></span>
-                        <span class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"></span>
+                      <span
+                        class="bg-light d-flex h-100 border-end flex-column"
+                        style="padding: 2px"
+                      >
+                        <span
+                          class="d-block p-1 bg-dark-subtle rounded mb-1"
+                        ></span>
+                        <span
+                          class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"
+                        ></span>
+                        <span
+                          class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"
+                        ></span>
+                        <span
+                          class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"
+                        ></span>
+                        <span
+                          class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"
+                        ></span>
                       </span>
                     </span>
                     <span class="flex-grow-1">
@@ -992,16 +1630,38 @@
 
             <div class="col-4">
               <div class="form-check sidebar-setting card-radio">
-                <input class="form-check-input" type="radio" name="data-sidenav-size" id="sidenav-size-small-hover" value="sm-hover" />
-                <label class="form-check-label p-0 avatar-xl w-100" for="sidenav-size-small-hover">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="data-sidenav-size"
+                  id="sidenav-size-small-hover"
+                  value="sm-hover"
+                />
+                <label
+                  class="form-check-label p-0 avatar-xl w-100"
+                  for="sidenav-size-small-hover"
+                >
                   <span class="d-flex h-100">
                     <span class="flex-shrink-0">
-                      <span class="bg-light d-flex h-100 border-end flex-column" style="padding: 2px">
-                        <span class="d-block p-1 bg-dark-subtle rounded mb-1"></span>
-                        <span class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"></span>
-                        <span class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"></span>
-                        <span class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"></span>
-                        <span class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"></span>
+                      <span
+                        class="bg-light d-flex h-100 border-end flex-column"
+                        style="padding: 2px"
+                      >
+                        <span
+                          class="d-block p-1 bg-dark-subtle rounded mb-1"
+                        ></span>
+                        <span
+                          class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"
+                        ></span>
+                        <span
+                          class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"
+                        ></span>
+                        <span
+                          class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"
+                        ></span>
+                        <span
+                          class="d-block border border-3 border-secondary border-opacity-25 rounded w-100 mb-1"
+                        ></span>
                       </span>
                     </span>
                     <span class="flex-grow-1">
@@ -1017,8 +1677,17 @@
 
             <div class="col-4">
               <div class="form-check sidebar-setting card-radio">
-                <input class="form-check-input" type="radio" name="data-sidenav-size" id="sidenav-size-full" value="full" />
-                <label class="form-check-label p-0 avatar-xl w-100" for="sidenav-size-full">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="data-sidenav-size"
+                  id="sidenav-size-full"
+                  value="full"
+                />
+                <label
+                  class="form-check-label p-0 avatar-xl w-100"
+                  for="sidenav-size-full"
+                >
                   <span class="d-flex h-100">
                     <span class="flex-shrink-0">
                       <span class="d-flex h-100 flex-column">
@@ -1038,8 +1707,17 @@
 
             <div class="col-4">
               <div class="form-check sidebar-setting card-radio">
-                <input class="form-check-input" type="radio" name="data-sidenav-size" id="sidenav-size-fullscreen" value="fullscreen" />
-                <label class="form-check-label p-0 avatar-xl w-100" for="sidenav-size-fullscreen">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="data-sidenav-size"
+                  id="sidenav-size-fullscreen"
+                  value="fullscreen"
+                />
+                <label
+                  class="form-check-label p-0 avatar-xl w-100"
+                  for="sidenav-size-fullscreen"
+                >
                   <span class="d-flex h-100">
                     <span class="flex-grow-1">
                       <span class="d-flex h-100 flex-column">
@@ -1059,11 +1737,31 @@
             <h5 class="fs-16 mb-0">Container Width</h5>
 
             <div class="btn-group radio" role="group">
-              <input type="radio" class="btn-check" name="data-container-position" id="container-width-fixed" value="fixed" />
-              <label class="btn btn-sm btn-soft-primary w-sm" for="container-width-fixed">Full</label>
+              <input
+                type="radio"
+                class="btn-check"
+                name="data-container-position"
+                id="container-width-fixed"
+                value="fixed"
+              />
+              <label
+                class="btn btn-sm btn-soft-primary w-sm"
+                for="container-width-fixed"
+                >Full</label
+              >
 
-              <input type="radio" class="btn-check" name="data-container-position" id="container-width-scrollable" value="scrollable" />
-              <label class="btn btn-sm btn-soft-primary w-sm ms-0" for="container-width-scrollable">Boxed</label>
+              <input
+                type="radio"
+                class="btn-check"
+                name="data-container-position"
+                id="container-width-scrollable"
+                value="scrollable"
+              />
+              <label
+                class="btn btn-sm btn-soft-primary w-sm ms-0"
+                for="container-width-scrollable"
+                >Boxed</label
+              >
             </div>
           </div>
         </div>
@@ -1073,92 +1771,186 @@
             <h5 class="fs-16 mb-0">Layout Position</h5>
 
             <div class="btn-group radio" role="group">
-              <input type="radio" class="btn-check" name="data-layout-position" id="layout-position-fixed" value="fixed" />
-              <label class="btn btn-sm btn-soft-primary w-sm" for="layout-position-fixed">Fixed</label>
+              <input
+                type="radio"
+                class="btn-check"
+                name="data-layout-position"
+                id="layout-position-fixed"
+                value="fixed"
+              />
+              <label
+                class="btn btn-sm btn-soft-primary w-sm"
+                for="layout-position-fixed"
+                >Fixed</label
+              >
 
-              <input type="radio" class="btn-check" name="data-layout-position" id="layout-position-scrollable" value="scrollable" />
-              <label class="btn btn-sm btn-soft-primary w-sm ms-0" for="layout-position-scrollable">Scrollable</label>
+              <input
+                type="radio"
+                class="btn-check"
+                name="data-layout-position"
+                id="layout-position-scrollable"
+                value="scrollable"
+              />
+              <label
+                class="btn btn-sm btn-soft-primary w-sm ms-0"
+                for="layout-position-scrollable"
+                >Scrollable</label
+              >
             </div>
           </div>
         </div>
       </div>
 
-      <div class="d-flex align-items-center gap-2 px-3 py-2 offcanvas-header border-top border-dashed">
-        <button type="button" class="btn w-50 btn-soft-danger" id="reset-layout">Reset</button>
+      <div
+        class="d-flex align-items-center gap-2 px-3 py-2 offcanvas-header border-top border-dashed"
+      >
+        <button
+          type="button"
+          class="btn w-50 btn-soft-danger"
+          id="reset-layout"
+        >
+          Reset
+        </button>
       </div>
     </div>
 
     <!-- Offcanvas Notifikasi -->
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="notifikasiOffcanvas" aria-labelledby="notifikasiOffcanvasLabel">
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="notifikasiOffcanvas"
+      aria-labelledby="notifikasiOffcanvasLabel"
+    >
       <div class="offcanvas-header border-bottom">
         <h4 id="notifikasiOffcanvasLabel" class="mb-0">Notifikasi</h4>
-        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
       </div>
 
       <div class="offcanvas-body p-3">
         <!-- Item: 1 -->
-        <div class="dropdown-item notification-item py-2 text-wrap active border-bottom" id="notification-1">
+        <div
+          class="dropdown-item notification-item py-2 text-wrap active border-bottom"
+          id="notification-1"
+        >
           <div class="d-flex align-items-center">
             <div class="me-3 flex-shrink-0">
-              <img src="assets/images/users/avatar-2.jpg" class="avatar-lg rounded-circle" alt="Admin Gedung" />
+              <img
+                src="assets/images/users/avatar-2.jpg"
+                class="avatar-lg rounded-circle"
+                alt="Admin Gedung"
+              />
             </div>
             <div class="flex-grow-1 text-muted">
               <span class="fw-medium text-body">Admin Gedung</span>
-              meminta penggunaan <span class="fw-medium text-body">sertifikat</span> milik <span class="fw-medium text-body">Andi Saputra</span> (Divisi Infrastruktur 1).<br />
+              meminta penggunaan
+              <span class="fw-medium text-body">sertifikat</span> milik
+              <span class="fw-medium text-body">Andi Saputra</span> (Divisi
+              Infrastruktur 1).<br />
               <span class="fs-12">5m yang lalu</span>
             </div>
-            <button type="button" class="btn btn-ghost-danger btn-sm btn-icon ms-2" data-dismissible="#notification-1">
+            <button
+              type="button"
+              class="btn btn-ghost-danger btn-sm btn-icon ms-2"
+              data-dismissible="#notification-1"
+            >
               <i class="ri-close-line fs-16"></i>
             </button>
           </div>
         </div>
 
         <!-- Item: 2 -->
-        <div class="dropdown-item notification-item py-2 text-wrap border-bottom" id="notification-2">
+        <div
+          class="dropdown-item notification-item py-2 text-wrap border-bottom"
+          id="notification-2"
+        >
           <div class="d-flex align-items-center">
             <div class="me-3 flex-shrink-0">
-              <img src="assets/images/users/avatar-2.jpg" class="avatar-lg rounded-circle" alt="Admin Infrastruktur 1" />
+              <img
+                src="assets/images/users/avatar-2.jpg"
+                class="avatar-lg rounded-circle"
+                alt="Admin Infrastruktur 1"
+              />
             </div>
             <div class="flex-grow-1 text-muted">
               <span class="fw-medium text-body">Admin Infrastruktur 1</span>
-              meminta penggunaan <span class="fw-medium text-body">sertifikat</span> milik <span class="fw-medium text-body">Budi Santoso</span> (Divisi Gedung).<br />
+              meminta penggunaan
+              <span class="fw-medium text-body">sertifikat</span> milik
+              <span class="fw-medium text-body">Budi Santoso</span> (Divisi
+              Gedung).<br />
               <span class="fs-12">15m yang lalu</span>
             </div>
-            <button type="button" class="btn btn-ghost-danger btn-sm btn-icon ms-2" data-dismissible="#notification-2">
+            <button
+              type="button"
+              class="btn btn-ghost-danger btn-sm btn-icon ms-2"
+              data-dismissible="#notification-2"
+            >
               <i class="ri-close-line fs-16"></i>
             </button>
           </div>
         </div>
 
         <!-- Item: 3 -->
-        <div class="dropdown-item notification-item py-2 text-wrap border-bottom" id="notification-3">
+        <div
+          class="dropdown-item notification-item py-2 text-wrap border-bottom"
+          id="notification-3"
+        >
           <div class="d-flex align-items-center">
             <div class="me-3 flex-shrink-0">
-              <img src="assets/images/users/avatar-2.jpg" class="avatar-lg rounded-circle" alt="Admin Infrastruktur 2" />
+              <img
+                src="assets/images/users/avatar-2.jpg"
+                class="avatar-lg rounded-circle"
+                alt="Admin Infrastruktur 2"
+              />
             </div>
             <div class="flex-grow-1 text-muted">
               <span class="fw-medium text-body">Admin Infrastruktur 2</span>
-              meminta penggunaan <span class="fw-medium text-body">sertifikat</span> milik <span class="fw-medium text-body">Citra Dewi</span> (Divisi EPC).<br />
+              meminta penggunaan
+              <span class="fw-medium text-body">sertifikat</span> milik
+              <span class="fw-medium text-body">Citra Dewi</span> (Divisi
+              EPC).<br />
               <span class="fs-12">30m yang lalu</span>
             </div>
-            <button type="button" class="btn btn-ghost-danger btn-sm btn-icon ms-2" data-dismissible="#notification-3">
+            <button
+              type="button"
+              class="btn btn-ghost-danger btn-sm btn-icon ms-2"
+              data-dismissible="#notification-3"
+            >
               <i class="ri-close-line fs-16"></i>
             </button>
           </div>
         </div>
 
         <!-- Item: 4 -->
-        <div class="dropdown-item notification-item py-2 text-wrap" id="notification-4">
+        <div
+          class="dropdown-item notification-item py-2 text-wrap"
+          id="notification-4"
+        >
           <div class="d-flex align-items-center">
             <div class="me-3 flex-shrink-0">
-              <img src="assets/images/users/avatar-2.jpg" class="avatar-lg rounded-circle" alt="Admin EPC" />
+              <img
+                src="assets/images/users/avatar-2.jpg"
+                class="avatar-lg rounded-circle"
+                alt="Admin EPC"
+              />
             </div>
             <div class="flex-grow-1 text-muted">
               <span class="fw-medium text-body">Admin EPC</span>
-              meminta penggunaan <span class="fw-medium text-body">sertifikat</span> milik <span class="fw-medium text-body">Dedi Firmansyah</span> (Divisi Infrastruktur 2).<br />
+              meminta penggunaan
+              <span class="fw-medium text-body">sertifikat</span> milik
+              <span class="fw-medium text-body">Dedi Firmansyah</span> (Divisi
+              Infrastruktur 2).<br />
               <span class="fs-12">1h yang lalu</span>
             </div>
-            <button type="button" class="btn btn-ghost-danger btn-sm btn-icon ms-2" data-dismissible="#notification-4">
+            <button
+              type="button"
+              class="btn btn-ghost-danger btn-sm btn-icon ms-2"
+              data-dismissible="#notification-4"
+            >
               <i class="ri-close-line fs-16"></i>
             </button>
           </div>
